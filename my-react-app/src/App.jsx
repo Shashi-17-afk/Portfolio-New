@@ -29,6 +29,12 @@ Beyond code, I won 1st place at the AZURA 2k25 National Bug Hunt and have solved
   ],
   projects: [
     {
+      id: 3, title: "HireSight", icon: "🏢", featured: true,
+      description: "HireSight is an AI-powered hiring platform that streamlines the recruitment process for HR teams. It uses ATS scoring and semantic resume matching to identify the best candidates for a job role.The platform enables job posting, candidate applications, and real-time applicant ranking in one place.",
+      tags: ["React", "Cloudflare", "Node.js", "API", "Auth", "Workers Ai"],
+      live: "https://hiresight.shashishanthan2706.workers.dev/", code: "https://github.com/Shashi-17-afk",
+    },
+    {
       id: 1, title: "UNO Multiplayer Game", icon: "🎮", featured: true,
       description: "Real-time multiplayer UNO supporting 4 concurrent players with room-based lobbies and synchronized turn logic — built with Socket.IO event-driven architecture.",
       tags: ["Node.js", "Socket.IO", "JavaScript", "Express"],
@@ -43,17 +49,11 @@ Beyond code, I won 1st place at the AZURA 2k25 National Bug Hunt and have solved
       code: "https://github.com/Shashi-17-afk/Project_M",
     },
     {
-      id: 3, title: "Netflix Clone", icon: "🎬", featured: true,
-      description: "Responsive streaming interface with dynamic API content fetching, Firebase auth, and a Tailwind-powered UI matching Netflix's layout across all devices.",
-      tags: ["React", "Tailwind", "Firebase", "API"],
-      live: "#", code: "https://github.com/Shashi-17-afk",
-    },
-    {
-      id: 4, title: "Trams Agency Landing Page", icon: "🏢", featured: false,
-      description: "Figma-to-React conversion of a creative agency site — pixel-accurate, fully responsive, deployed to Vercel with clean component architecture.",
-      tags: ["React", "CSS", "Figma", "Vercel"],
+      id: 4, title: "AI Readme Pro", icon: "🏢", featured: false,
+      description: "AI README Pro is a fully client-side, production-ready web application that helps developers generate professional README.md files for their GitHub projects. ",
+      tags: ["React", "CSS", "Vercel"],
       live: "https://trams-eight.vercel.app/",
-      code: "https://github.com/Shashi-17-afk",
+      code: "https://github.com/Shashi-17-afk/DigitalHeroes",
     },
   ],
   education: [
@@ -109,6 +109,7 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--white);line-heig
 .divider{width:100%;height:1px;background:var(--border2)}
 
 /* HERO */
+
 #home{padding-top:64px;min-height:100vh;display:flex;align-items:center;padding-left:48px;padding-right:48px;position:relative;overflow:hidden}
 .glow1{position:absolute;top:-200px;left:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(99,102,241,0.15) 0%,transparent 70%);pointer-events:none}
 .glow2{position:absolute;bottom:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(34,211,238,0.08) 0%,transparent 70%);pointer-events:none}
@@ -284,8 +285,11 @@ function Hero() {
     <section id="home" style={{paddingTop:64,minHeight:"100vh",display:"flex",alignItems:"center",padding:"64px 48px 60px",position:"relative",overflow:"hidden"}}>
       <div className="glow1"/><div className="glow2"/>
       <div className="hero-grid">
+        
         <div>
+          
           <div className="hero-eyebrow">Available for internships</div>
+          
           <h1 className="hero mb-7">
             <span className="grad"> Hi, I'm<br/> {DATA.name}</span>
           </h1>
