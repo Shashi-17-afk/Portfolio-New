@@ -25,7 +25,7 @@ Beyond code, I won 1st place at the AZURA 2k25 National Bug Hunt and have solved
     { category: "Databases", items: ["MongoDB", "MySQL", "Firebase"] },
     { category: "Languages", items: ["JavaScript", "Python", "Java", "C", "C++", "SQL"] },
     { category: "AI & Tools", items: ["Claude Code", "Cursor", "OpenAI Codex", "Git", "GitHub", "VS Code"] },
-    { category: "Core CS", items: ["DSA", "OOP", "DBMS", "OS", "Computer Networks"] },
+    { category: "Core CS", items: ["DSA", "OOP", "System Design ","DBMS", "OS", "Computer Networks"] },
   ],
   projects: [
     {
